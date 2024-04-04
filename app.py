@@ -10,6 +10,9 @@ bebida_suco = Bebida ('Suco de Melancia', 5.0, 'grande')
 restaurante_praca.adicionar_no_cardapio(prato_paozinho)
 restaurante_praca.adicionar_no_cardapio(bebida_suco)
 
+prato_paozinho.aplicar_desconto()
+bebida_suco.aplicar_desconto()
+
 def main():
     restaurante_praca.exibir_cardapio
 
